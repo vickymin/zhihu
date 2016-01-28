@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>这是一个仿知乎网站</title>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+  <div class="main">
+    <div class="logo">
+      <img src="img/logo@2x.bf092086.png" alt="zhihu logo" width="160px" height="74px">
+      <p class="subtitle">与世界分享你的知识、经验和见解</p>
+    </div>
+    <div class="slider">
+      <a href="#" class="active">注册</a>
+      <a href="#" class="">登录</a>
+      <span class="slider-bar"><span>
+    </div>
+    <div class="view signup" style="display:block">
+      <div class="signup-form">
+        <div class="inputs">
+          <div class="input-wrapper">
+            <input type="text" name="fullname" placeholder="姓名" required="required" >
+          </div>
+          <div class="input-wrapper">
+            <input type="text" name="phone" placeholder="手机号（仅支持中国大陆）" required="required" >
+          </div>
+          <div class="input-wrapper">
+            <input type="password" name="password" placeholder="密码（不少于6位）" required="required" >
+          </div>
+          <div class="input-wrapper">
+            <input type="验证码" name="captcha" placeholder="验证码" required="required" >
+            <img id="captcha-img">
+          </div>
+        </div>
+        <div class="sign-button">
+          <button class="sign-button" type="submit" onclick="location.href='home.html'">注册知乎</button>
+        </div>
+      </div>
+    </div>
+    <div class="view login" style="display:none">
+      <div class="login-form">
+        <div class="inputs">
+          <div class="input-wrapper">
+            <input type="text" name="account" placeholder="手机号或邮箱" required="required" >
+          </div>
+          <div class="input-wrapper">
+            <input type="password" name="password" placeholder="密码" required="required" >
+          </div>
+          <div class="input-wrapper">
+            <input type="验证码" name="captcha" placeholder="验证码" required="required" >
+            <img id="captcha-img">
+          </div>
+        </div>
+        <div class="sign-button">
+          <button class="sign-button" type="submit" onclick="location.href='home.html'">登录知乎</button>
+        </div>
+        <div class="login-other-wrapper">
+          <a class="unable-login">无法登录？</a>
+          <label for="remember" class="login-remember">
+            <input type="checkbox" name="remember" id="remember" checked="true">
+            记住我
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="sns-login">
+      <p class="sns-login-word">社交账号登录</p>
+      <a class="sns-login-wechat" title="微信登录"></a>
+      <a class="sns-login-weibo" title="微博登录"></a>
+      <a class="sns-login-qq" title="QQ登录"></a>
+    </div>
+  </div>
+  <div class="qrcode">
+    <div class="qrcode-download">
+      <i class="qrcode-icon"></i>
+      <span class="qrcode-download-text">下载知乎 App</span>
+    </div>
+    <div class="qrcode-scane">
+      <span class="qrcode-text-download">扫一扫二维码下载</span>
+      <img class="qrcode-scan-img" src="img/qrcode.png"></img>
+    </span>
+  </div>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
