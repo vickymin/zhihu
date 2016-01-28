@@ -2,6 +2,8 @@
 
 仿照知乎实现的静态页面，仅作学习用
 
+[Demo](https://minjiepei.com/zhihu)
+
 基本实现了如下页面：
 
 - 注册/登录
