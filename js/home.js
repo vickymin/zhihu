@@ -25,6 +25,14 @@ $(document).ready(function(){
     $(this).css("display", "none");
     $(this).next(".main-content-answer-all").css("display", "block");
   });
+  $(".main-content-answer-img-mid").on("click",function(){
+    $(".main-content-answer-img-box").css("display", "block");
+    $(".vicky").css("overflow-y", "hidden");
+  });
+  $(".main-content-answer-img-lg").on("click",function(){
+    $(".main-content-answer-img-box").css("display", "none");
+    $(".scroll").css("overflow-y", "auto");
+  });
   $(".collapse-button").on("click",function(){
     $(".main-content-answer-all").css("display", "none");
     $(".main-content-answer-part").css("display", "block");

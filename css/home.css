@@ -31,6 +31,7 @@ button,input{
   border-bottom: 1px solid #044e97;
   box-shadow: 0 1px 2px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.15);
   text-align: center;
+  z-index: 10000;
 }
 .navigation-wrapper{
   width: 960px;
@@ -323,10 +324,9 @@ button,input{
 .main-content-answer-close ~ .display-ignore{
   display: none;
   z-index: -10000;
-  float: right;
-  position: relative;
-  top: 5px;
-  left: 40px;
+  position: absolute;
+  top: 10px;
+  right: -26px;
 }
 .display-ignore span{
   display: block;
@@ -352,7 +352,7 @@ button,input{
   margin-top: 1px;
   color: #000;
 }
-.main-content-answer-img{
+.main-content-answer-img-sm{
   float: left;
   width: 200px;
   height: 112px;
@@ -367,7 +367,7 @@ button,input{
   display: block;
   position: absolute;
   left: -48px;
-  top: -25px;
+  top: -22px;
   width: 38px;
   height: 24px;
   line-height: 24px;
@@ -402,7 +402,7 @@ button,input{
   margin: 0 0 5px;
   list-style-position: inside;
 }
-.main-content-answer-all img{
+.main-content-answer-img-mid{
   width: 100%;
   cursor: zoom-in;
 }
@@ -410,6 +410,7 @@ button,input{
   display: block;
   position: fixed;
   top: auto;
+  right: 0;
   left: 739px;
   bottom: 12px;
   width: 51px;
@@ -456,7 +457,7 @@ button,input{
   display: block;
   position: absolute;
   left: -48px;
-  top: -25px;
+  top: -22px;
   width: 38px;
   height: 44px;
   border: 0;
@@ -581,4 +582,24 @@ button,input{
 }
 .main-sidebar-footer li a:hover{
   text-decoration: underline;
+}
+
+/* 答案中放大后的图片 */
+.main-content-answer-img-box{
+  display: none;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding: 0 10%;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  z-index: 10000;
+}
+.main-content-answer-img-lg{
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
+  cursor: zoom-out;
 }
