@@ -31,7 +31,7 @@ $(document).ready(function(){
   });
   $(".main-content-answer-img-lg").on("click",function(){
     $(".main-content-answer-img-box").css("display", "none");
-    $(".scroll").css("overflow-y", "auto");
+    $(".vicky").css("overflow-y", "auto");
   });
   $(".collapse-button").on("click",function(){
     $(".main-content-answer-all").css("display", "none");
