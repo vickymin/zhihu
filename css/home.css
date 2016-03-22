@@ -43,7 +43,7 @@ button,input{
   float: left;
   width: 61px;
   height: 29px;
-  background-image: url(../img/new_logo@2x.ad6567b2.png);
+  background-image: url(../img/new_logo@2x.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -402,7 +402,7 @@ button,input{
   margin: 0 0 5px;
   list-style-position: inside;
 }
-.main-content-answer-img-mid{
+.main-content-answer-img-md{
   width: 100%;
   cursor: zoom-in;
 }
@@ -525,7 +525,7 @@ button,input{
   height: 225px;
   border: 1px solid #eee;
   border-radius: 6px;
-  background: url(../img/5b3862d1213a41bc232fa48157c2e859_540x450.jpg) no-repeat;
+  background: url(../img/sidebar.jpg) no-repeat;
   background-size: cover;
   cursor: pointer;
 }

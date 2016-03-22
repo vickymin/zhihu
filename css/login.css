@@ -120,7 +120,7 @@ body{
   width: 22px;
   height: 20px;
   margin-right: 25px;
-  background-image: url(../img/sprites@2x.auto.0a54522c.png);
+  background-image: url(../img/sprites@2x.png);
   background-size: 80px 55px;
   cursor: pointer;
 }
@@ -161,7 +161,7 @@ body{
   width: 15px;
   height: 15px;
   vertical-align: middle;
-  background-image: url(../img/sprites@2x.auto.0a54522c.png);
+  background-image: url(../img/sprites@2x.png);
   background-size: 80px 55px;
   background-position: 0 -40px;
   background-repeat: no-repeat;
