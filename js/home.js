@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
   $(".nav-profile").on("mouseout",function(){
     $(".nav-profile-link").css("background-color", "transparent");
-    $(".nav-profile-dropdown").css("display", "none")
+    $(".nav-profile-dropdown").css("display", "none");
   });
   $(".main-sidebar-link").on("mouseover",function(){
     $(this).css({"background-color": "#eff6fa","color": "#259"});
@@ -38,9 +38,9 @@ $(document).ready(function(){
     $(".main-content-answer-part").css("display", "block");
   });
   $(".main-content-answer-close").on("mouseover",function(){
-    setTimeout(function(){$(".display-ignore").css("display", "block")}, 400);
+    setTimeout(function(){$(".display-ignore").css("display", "block");}, 400);
   });
   $(".main-content-answer-close").on("mouseout",function(){
-    setTimeout(function(){$(".display-ignore").css("display", "none")}, 500);
+    setTimeout(function(){$(".display-ignore").css("display", "none");}, 500);
   });
-})
+});
