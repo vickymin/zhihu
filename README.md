@@ -1,13 +1,11 @@
-## 仿知乎
+## Mimic Zhihu
 
-仿照知乎实现的静态页面，仅作学习用
+This is a static web page which mimics Zhihu (Chinese version of Quora).
 
 [Demo](https://minjiepei.com/zhihu)
 
-基本实现了如下页面：
-
-- 注册/登录
+- Sin up / Log in
 ![login pic](https://github.com/vickymin/zhihu/raw/master/readme/login.png)
 
-- 首页
+- Homepage
 ![home pic](https://github.com/vickymin/zhihu/raw/master/readme/home.png)
